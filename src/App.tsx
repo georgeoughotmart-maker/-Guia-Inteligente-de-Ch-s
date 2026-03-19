@@ -447,21 +447,11 @@ export default function App() {
         </AnimatePresence>
       </main>
 
-      <footer className="py-16 text-center space-y-4">
+      <footer className="py-16 text-center">
         <div className="inline-flex items-center gap-2 bg-stone-200/50 px-4 py-2 rounded-full text-stone-500 text-xs font-bold uppercase tracking-widest">
           <span>🌿 Use com sabedoria</span>
           <span className="text-stone-300">•</span>
           <span>Consulte seu médico</span>
-        </div>
-        <div className="block">
-          <a 
-            href="/offline_guia_chas.html" 
-            download="Guia_Chas_Offline.html"
-            className="text-emerald-600 font-bold text-xs hover:underline flex items-center justify-center gap-2"
-          >
-            <ArrowRight className="rotate-90" size={14} />
-            Baixar Versão Offline (Arquivo Único)
-          </a>
         </div>
       </footer>
     </div>
